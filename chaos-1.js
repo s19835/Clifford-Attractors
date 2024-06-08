@@ -7,9 +7,6 @@ context.lineWidth = 1;
 context.strokeStyle = `282c33`;
 context.fillStyle = `282c33`;
 
-let parameters = {a:2, b:-2, c:1, d:-1};
-var numOfParticles = 20;
-
 //CHAOSI
 //computer simulatin of a three amplifiers, 
 /*Imagine an arrangement of three amplifiers in which the first amplifier outputs a signal x that is fed to the other two. The second amplifier outputs the signal 1 - x in response to x. The third amplifier takes the two signals, x and 1 - x, as input. It generates the product, x(1 - x), of the two signals and feeds it back to the first amplifier, which also receives a control voltage, r, as input. One additional component, a device that samples its input and delivers the same voltage as output for a short time, completes the circuit; it is inserted in the output line from the first amplifier. The three-amplifier circuit does a voltage dance that becomes more hectic as the control voltage r is grad ually increased.*/
