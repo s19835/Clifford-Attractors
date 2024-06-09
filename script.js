@@ -4,7 +4,7 @@ const canvas = document.getElementById("canvas"),
     height = canvas.height = window.innerHeight;
 
 context.lineWidth = 1;
-context.strokeStyle = '#28c33';
+context.strokeStyle = '#282c33';
 context.fillStyle = '#282c33';
 
 // by changing the parameters1 or others to just parameters visualize diff attractor grpahics, but only one parameters name should exist.
